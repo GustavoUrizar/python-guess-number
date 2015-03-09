@@ -1,3 +1,4 @@
-# Aqui escribe tu codigo
+import random 
 
-print "Hello World"
+GENERATED = random.randint(1, 20)
+
