@@ -15,7 +15,7 @@ while NEWGAME == True:
 				if NUMBER == GENERATED: #if number is the same than generated the user wins.
 					print "You Win"
 					ANSWER = True
-					while ANSWER == True:
+					while ANSWER == True: #this while handles all the option to play again. 
 						AGAIN = raw_input("Do you want to play again, yes or no: ") # if the user won this varible is used to ask if the user wants to play again.
 						if AGAIN == "yes" or AGAIN == "y" or AGAIN == "Y" or AGAIN =="YES":
 							ANSWER = False
@@ -39,7 +39,7 @@ while NEWGAME == True:
 		else: # if the user overcomes the number of trials
 			print "GAME OVER"
 			ANSWER = True
-			while ANSWER == True: 
+			while ANSWER == True:  # after the game is over this while handles all the options to play again. 
 				AGAIN = raw_input("Do you want to play again, yes or no: ") # after to overcome the number of trials user has the option to play again.
 				if AGAIN == "yes" or AGAIN == "y" or AGAIN == "Y" or AGAIN =="YES":
 					ANSWER = False
