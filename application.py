@@ -1,4 +1,4 @@
-"""WELCOME TO GUESS NUMBER"""
+print"""WELCOME TO GUESS NUMBER"""
 import random
 
 NEWGAME = True
@@ -56,5 +56,5 @@ while NEWGAME == True:
                     VALIDATE = False
                     NEWGAME = False
                 else:
-                    print "that is not valid, try again."
+                    print """that is not valid, try again."""
     
